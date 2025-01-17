@@ -31,6 +31,8 @@ const Logo = styled.h1`
   color: ${({ theme }) => theme.primary};
 `;
 
+
+
 const Nav = styled.nav`
   width: 100%;
   max-width: 800px;
@@ -96,6 +98,7 @@ function Footer() {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </Nav>
+
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>

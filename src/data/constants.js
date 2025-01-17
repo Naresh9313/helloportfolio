@@ -1,14 +1,12 @@
 export const Bio = {
   name: "Naresh Prajapati",
   roles: [
-    "Full Stack Developer",
-    "Android Developer",
-    "UI/UX Designer",
-    "Programmer",
+      "Backend Developer"
   ],
   github: "https://github.com/Naresh9313",
   resume:"https://drive.google.com/file/d/1i6_lSdrosGV2gKqfv9awvjEKswxykfkc/view",
   linkedin: "https://www.linkedin.com/in/naresh-prajapati-a5048a201/",
+  facebook:""
   
 };
 
@@ -154,7 +152,7 @@ export const experiences = [
     img: "https://tse4.mm.bing.net/th?id=OIP.oKes_p_iOlPlwQ5DICU1uAAAAA&pid=Api&P=0&h=180",
     role: "Node JS  Intern",
     company: "Infolanze Tech ",
-    date: "Nov 2025 ",
+    date: "Nov 2024 ",
     desc: "As a backend deveploer!!",
     skills: [
       "Node Js",
@@ -208,53 +206,78 @@ export const education = [
 export const projects = [
  
 
- 
-  // {
-  //   id: 2,
-  //   title: "Brain Tumor Detection",
-  //   date: "Jan 2023 - Mar 2023",
-  //   description:
-  //     "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-  //   image:
-  //     "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-  //   webapp: "https://brain-tumor.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 3,
-  //   title: "Buckoid",
-  //   date: "Dec 2021 - Apr 2022",
-  //   description:
-  //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-  //   image:
-  //     "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-  //   tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Buckoid-Android-App",
-  //   webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  // },
+  
+  {
+    id: 2,
+    title: "Shopsy Clone",
+    date: "July 2023 - Dec 2023",
+    description:
+      "Shopsy clone ecommerce website!!.",
+    image:
+      "https://npweb.vercel.app/",
+    tags: ["React JS", "Node JS", "Express JS", "MongoDB"],
+    category: "Mern Stack ",
+    github: "https://github.com/Naresh9313/Live_Project",
+    webapp: "https://npweb.vercel.app/",
+    member: [
+      {
+        name: "Naresh Prajapati",
+        img: "",
+        linkedin: "https://www.linkedin.com/in/naresh-prajapati-a5048a201/",
+        github: "https://github.com/Naresh9313/",
+      },
+      
+    ],
+  },
+  {
+    id: 3,
+    title: "Clothify Clone",
+    date: "Feb 2024 - May 2024",
+    description:
+      "Clothify Clone ecommerce website!!",
+    image:
+      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+    tags: ["Angualr JS ","Node JS " ,"Express JS", "MongoDB"],
+    category: "Mean Stack",
+    github: "https://github.com/Naresh9313/Live_Project",
+    webapp: "https://npweb.vercel.app/",
+    member: [
+      {
+        name: "Naresh Prajapati",
+        img: "",
+        linkedin: "https://www.linkedin.com/in/naresh-prajapati-a5048a201/",
+        github: "https://github.com/Naresh9313/",
+      },
+      
+    ],
+  },
+
+  {
+    id: 2,
+    title: "ISX Tours & Travelers",
+    date: "Nov 2024 - Present",
+    description:
+      "User Trip Booking and enjoy the country!!.",
+    image:
+      "https://npweb.vercel.app/",
+    tags: ["React JS", "Node JS", "Express JS", "MySQL"],
+    category: "Mern Stack ",
+    github: "https://github.com/Naresh9313/Live_Project",
+    webapp: "https://npweb.vercel.app/",
+    member: [
+      {
+        name: "Naresh Prajapati",
+        img: "",
+        linkedin: "https://www.linkedin.com/in/naresh-prajapati-a5048a201/",
+        github: "https://github.com/Naresh9313/",
+      },
+      {
+        name: "Naresh Prajapati",
+        img: "",
+        linkedin: "https://www.linkedin.com/in/naresh-prajapati-a5048a201/",
+        github: "https://github.com/Naresh9313/",
+      },  
+    ],
+  },  
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
