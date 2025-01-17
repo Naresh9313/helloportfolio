@@ -6,9 +6,8 @@ export const Bio = {
     "UI/UX Designer",
     "Programmer",
   ],
-   github: "https://github.com/Naresh9313",
-  resume:
-    "file:///C:/Users/HP/Desktop/resume/Prajapati%20Naresh%20Resume.pdf",
+  github: "https://github.com/Naresh9313",
+  resume:"https://drive.google.com/file/d/1i6_lSdrosGV2gKqfv9awvjEKswxykfkc/view",
   linkedin: "https://www.linkedin.com/in/naresh-prajapati-a5048a201/",
   
 };
