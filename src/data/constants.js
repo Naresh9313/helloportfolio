@@ -126,7 +126,7 @@ export const experiences = [
     img: "https://tse4.mm.bing.net/th?id=OIP.oKes_p_iOlPlwQ5DICU1uAAAAA&pid=Api&P=0&h=180",
     role: "Node JS  Intern",
     company: "Infolanze Tech ",
-    date: "Nov 2024 ",
+    date: "Nov 2024 - Present ",
     desc: "As a backend deveploer!!",
     skills: [
       "Node Js",
@@ -139,13 +139,7 @@ export const experiences = [
 ];
 
 
-export const naresh =[
-  {
-    id:2,
-    name:"Naresh Prajapati"
-  }
 
-]
 
 
 export const education = [
@@ -154,7 +148,7 @@ export const education = [
     img: "https://tse1.mm.bing.net/th?id=OIP.qXBXZQXe73UCuw_5QChcwwAAAA&pid=Api&P=0&h=180",
     school: "LJ Institute of Computer Applications",
     date: "June - 2023 - Present",
-    grade: "68.14 ",
+    grade: "7.21 ",
     desc: "I am currently pursuing a Master's degree in Computer Science  LJ Institute of Computer Applications, Ahmedabad.",
     degree: "Master of Computer Scinece Infomation Technology (MSC-IT)",
   },
@@ -198,7 +192,7 @@ export const projects = [
     description:
       "Shopsy clone ecommerce website!!.",
     image:
-      "https://npweb.vercel.app/",
+      "https://i.imgur.com/GlfTMg5.png",
     tags: ["React JS", "Node JS", "Express JS", "MongoDB"],
     category: "Mern Stack ",
     github: "https://github.com/Naresh9313/Live_Project",
@@ -206,7 +200,7 @@ export const projects = [
     member: [
       {
         name: "Naresh Prajapati",
-        img: "",
+        img: "https://i.imgur.com/nYugmNM.jpeg",
         linkedin: "https://www.linkedin.com/in/naresh-prajapati-a5048a201/",
         github: "https://github.com/Naresh9313/",
       },
@@ -220,7 +214,7 @@ export const projects = [
     description:
       "Clothify Clone ecommerce website!!",
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+      "https://i.imgur.com/NFHXoML.jpeg",
     tags: ["Angualr JS ","Node JS " ,"Express JS", "MongoDB"],
     category: "Mean Stack",
     github: "https://github.com/Naresh9313/Live_Project",
@@ -228,7 +222,7 @@ export const projects = [
     member: [
       {
         name: "Naresh Prajapati",
-        img: "",
+        img: "https://i.imgur.com/nYugmNM.jpeg",
         linkedin: "https://www.linkedin.com/in/naresh-prajapati-a5048a201/",
         github: "https://github.com/Naresh9313/",
       },
@@ -243,8 +237,8 @@ export const projects = [
     description:
       "User Trip Booking and enjoy the country!!.",
     image:
-      "https://npweb.vercel.app/",
-    tags: ["React JS", "Node JS", "Express JS", "MySQL"],
+      "https://i.imgur.com/7FWFEt9.png",
+    tags: ["React JS", "Node JS", "Express JS",  "My SQL"],
     category: "Mern Stack ",
     github: "https://github.com/Naresh9313/Live_Project",
     
@@ -252,16 +246,10 @@ export const projects = [
     member: [
       {
         name: "Naresh Prajapati",
-        img: "",
+        img: "https://i.imgur.com/nYugmNM.jpeg",
         linkedin: "https://www.linkedin.com/in/naresh-prajapati-a5048a201/",
         github: "https://github.com/Naresh9313/",
       },
-      {
-        name: "Naresh Prajapati",
-        img: "",
-        linkedin: "https://www.linkedin.com/in/naresh-prajapati-a5048a201/",
-        github: "https://github.com/Naresh9313/",
-      },  
     ],
   },  
 ];
