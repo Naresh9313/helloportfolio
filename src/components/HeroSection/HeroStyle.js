@@ -166,6 +166,9 @@ export const SubTitle = styled.div`
   }
 `;
 
+
+
+
 export const ResumeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;

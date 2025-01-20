@@ -3,6 +3,37 @@ import HeroBgAnimation from '../HeroBgAnimation'
 import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
+import HeroImg from '../../images/Naresh.jpg';
+import styled from 'styled-components';
+
+
+
+
+
+export const Image = styled.img `
+width: 100%;
+height: 100%;
+position: relative;
+border-radius:50%;
+max-height: 500px;
+max-width: 400px;
+object-fit: center;
+object-position: center;
+
+@media  (max-width:768px){
+  max-width: 400px;
+  max-height: 400px;
+  
+}
+
+@media screen and (max-width: 640px){
+  max-height: 300px;
+  max-height: 300px;
+
+  
+}
+
+`;
 
 const HeroSection = () => {
     return (
@@ -17,13 +48,13 @@ const HeroSection = () => {
                         <TextLoop>
                             I am a
                             <Span>
-                                <Typewriter
-                                    options={{
-                                        strings: Bio.roles,
-                                        autoStart: true,
-                                        loop: true,
-                                    }}
-                                />
+                                    <Typewriter
+                                        options={{
+                                            strings: Bio.roles,
+                                            autoStart: true,
+                                            loop: true,
+                                        }}
+                                    />
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
@@ -31,6 +62,7 @@ const HeroSection = () => {
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
+                    <Image src = {HeroImg} alt="Hero"/>
 
                     </HeroRightContainer>
                 </HeroInnerContainer>
