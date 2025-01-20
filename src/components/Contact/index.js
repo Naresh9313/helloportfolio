@@ -144,7 +144,7 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Contact</Title>
+        {/* <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
@@ -153,7 +153,7 @@ const Contact = () => {
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
-        </ContactForm>
+        </ContactForm> */}
         <Snackbar
           open={open}
           autoHideDuration={6000}
