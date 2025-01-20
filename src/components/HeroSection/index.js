@@ -10,30 +10,43 @@ import styled from 'styled-components';
 
 
 
-export const Image = styled.img `
-width: 100%;
-height: 100%;
-position: relative;
-border-radius:50%;
-max-height: 500px;
-max-width: 400px;
-object-fit: center;
-object-position: center;
-
-@media  (max-width:768px){
+export const Image = styled.img`
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer;
+  max-height: 500px;
   max-width: 400px;
-  max-height: 400px;
-  
-}
+  object-fit: center;
+  object-position: center;
+  transition: transform 0.3s ease-in-out;
 
-@media screen and (max-width: 640px){
-  max-height: 300px;
-  max-height: 300px;
+  &:hover {
+    transform: scale(1.1) translateY(-10px);
+    animation: bounce 0.6s infinite;
+  }
 
-  
-}
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
 
+  @media (max-width: 768px) {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  @media screen and (max-width: 640px) {
+    max-width: 300px;
+    max-height: 300px;
+  }
 `;
+
 
 const HeroSection = () => {
     return (
@@ -43,7 +56,7 @@ const HeroSection = () => {
                     <HeroBgAnimation />
                 </HeroBg>
                 <HeroInnerContainer >
-                    <HeroLeftContainer id="Left">
+                    <HeroLeftContainer id="Right">
                         <Title>Hi, I am <br /> {Bio.name}</Title>
                         <TextLoop>
                             I am a
