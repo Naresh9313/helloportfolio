@@ -163,7 +163,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://i.imgur.com/v1h9Qbt.jpeg",
+    img: "https://i.imgur.com/s3AjX0R.png",
     school: "Ck kanya vidhalaya,Ahmedabad",
     date: "June 2019 - March 2020",
     grade: "80.1",
@@ -172,7 +172,7 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://i.imgur.com/v1h9Qbt.jpeg",
+    img: "https://i.imgur.com/s3AjX0R.png",
     school: "I am patel Ahmedabad",
     date: "June 2017 - March 2018",
     grade: "73.85",
