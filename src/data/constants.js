@@ -175,9 +175,6 @@ export const projects = [
     image: "https://i.imgur.com/7FWFEt9.png",
     tags: ["React JS", "Node JS", "Express JS", "My SQL"],
     category: "web app",
-    github: "https://github.com/Naresh9313/Live_Project",
-
-    webapp: "https://npweb.vercel.app/",
     member: [
       {
         name: "Naresh Prajapati",
@@ -195,8 +192,6 @@ export const projects = [
     image: "https://i.imgur.com/NFHXoML.jpeg",
     tags: ["Angualr JS ", "Node JS ", "Express JS", "MongoDB"],
     category: "web app",
-    github: "https://github.com/Naresh9313/Live_Project",
-    webapp: "https://npweb.vercel.app/",
     member: [
       {
         name: "Naresh Prajapati",
@@ -233,8 +228,6 @@ export const projects = [
     image: "https://i.imgur.com/GlfTMg5.png",
     tags: ["React JS", "Node JS", "Express JS", "MongoDB"],
     category: "web app",
-    github: "https://github.com/Naresh9313/Live_Project",
-    webapp: "https://npweb.vercel.app/",
     member: [
       {
         name: "Naresh Prajapati",
@@ -252,8 +245,6 @@ export const projects = [
     image: "https://i.imgur.com/z4GUeGn.png",
     tags: ["Django", "MySql"],
     category: "web app",
-    github: "https://github.com/Naresh9313/Live_Project",
-    webapp: "https://npweb.vercel.app/",
     member: [
       {
         name: "Naresh Prajapati",
