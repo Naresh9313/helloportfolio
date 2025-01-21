@@ -163,7 +163,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://i.imgur.com/v1h9Qbt.jpeg",
     school: "Ck kanya vidhalaya,Ahmedabad",
     date: "June 2019 - March 2020",
     grade: "80.1",
@@ -172,7 +172,7 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://i.imgur.com/v1h9Qbt.jpeg",
     school: "I am patel Ahmedabad",
     date: "June 2017 - March 2018",
     grade: "73.85",
