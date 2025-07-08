@@ -121,7 +121,7 @@ export const experiences = [
     img: "https://tse4.mm.bing.net/th?id=OIP.oKes_p_iOlPlwQ5DICU1uAAAAA&pid=Api&P=0&h=180",
     role: "Node JS  Intern",
     company: "Infolanze Tech ",
-    date: "Nov 2024 - Present ",
+    date: "Nov 2024 - Apirl 2025 ",
     desc: "As a backend deveploer!!",
     skills: ["Node Js", "Express JS", "MongoDB", "MySQL"],
   },
