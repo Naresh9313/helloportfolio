@@ -1,6 +1,6 @@
 export const Bio = {
   name: "Naresh Prajapati",
-  roles: ["Backend Developer"],
+  roles: ["MERN Stack Developer","Backend Developer","Frontend Developer"],
   github: "https://github.com/Naresh9313",
   resume:
     "https://drive.google.com/file/d/1i6_lSdrosGV2gKqfv9awvjEKswxykfkc/view",
